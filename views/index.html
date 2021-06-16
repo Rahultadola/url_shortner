@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Hello HTML</title>
+		<link rel="stylesheet" href="/public/style.css">
+	</head>
+	<body>
+		<h1>URL Shortener</h1>
+		  <section>
+        <form action="api/shorturl" method="post">
+          <fieldset>
+            <legend>Your URL</legend>
+            <label for="url_input">URL:</label>
+            <input id="url_input" type="text" name="url" value="https://www.freecodecamp.org/" placeholder="https://www.freecodecamp.org/" />
+            <input type="submit" value="POST URL" />
+          </fieldset>
+        </form>
+      </section> 
+	</body>
+</html>
